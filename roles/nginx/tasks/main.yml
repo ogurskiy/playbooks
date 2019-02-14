@@ -1,0 +1,4 @@
+---
+
+- include_tasks: RedHat.yml
+  when: ansible_os_family == 'RedHat'
